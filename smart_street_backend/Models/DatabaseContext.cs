@@ -13,5 +13,15 @@ namespace smart_street_backend.Model
         }
         public DatabaseContext() { }
 
+        public DbSet<user> users { get; set; }
+        public DbSet<cart> carts {get;set;}
+        public DbSet<catergory> catergories {get;set;}
+        public DbSet<customer> customers {get;set;}
+        public DbSet<image> images {get;set;}
+        public DbSet<order> orders {get;set;}
+        public DbSet<product> products {get;set;}
+        public DbSet<sale> sales {get;set;}
+        public DbSet<supplier> suppliers {get;set;}
+
     }
 }
