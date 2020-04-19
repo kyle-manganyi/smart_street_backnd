@@ -10,7 +10,7 @@ using smart_street_backend.Model;
 namespace smart_street_backend.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20200418140811_init")]
+    [Migration("20200418160138_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
