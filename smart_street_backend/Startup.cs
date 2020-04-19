@@ -31,7 +31,7 @@ namespace smart_street_backend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            var connectionString = "host=uganda-poc-database.ct1j4xg8we5m.eu-west-1.rds.amazonaws.com;Port=5432;Username=retrorabbit;Password=fEa9yPn521FLHM5U;Database=omicwatq;";
+            var connectionString = "host=drona.db.elephantsql.com;Port=5432;Username=omicwatq;Password=53Pi6JrgUMgvAc8CJUTua9XkXywcrXWW;Database=omicwatq;";
             services.AddDbContext<DatabaseContext>(options =>
                  options.UseNpgsql(connectionString)
             );
